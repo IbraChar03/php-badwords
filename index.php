@@ -13,7 +13,7 @@
     <h1>
         <?php
         $word = $_GET["word"];
-        $phrase = "$word is a bad word!";
+        $phrase = $word . " is a bad word!";
         echo $phrase;
         $length = " The length is " . strlen($phrase);
         echo $length;
